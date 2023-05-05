@@ -40,7 +40,7 @@ python manage.py migrate
 ## Для тестирования и наглядного представления работы сайта необходимо загрузить фикстуры:
 
 ```
-python manage.py loaddata fixtures/fixture_data.json
+python manage.py loaddata fixtures/data_fixture.json
 ```
 
 * В фикстурах суперпользователь: 
