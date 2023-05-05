@@ -16,7 +16,7 @@
 python pip install -r requirements.txt
 ```
 
-* Провести миграции:
+* Выполнить миграции:
 
 ```
 python manage.py makemigrations
