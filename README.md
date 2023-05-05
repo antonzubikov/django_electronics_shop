@@ -16,7 +16,7 @@
 * SQLite3 (database);
 * requests (2.28.1);
 * PyYAML (6.0);
-* sorl—thumbnail (12.9.0);
+* sorl–thumbnail (12.9.0);
 * transliterate (1.10.2)
 
 
