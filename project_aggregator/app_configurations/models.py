@@ -11,7 +11,7 @@ from .singletons import SingletonModelSettings
 
 class Category(MPTTModel):
     name = models.CharField(max_length=100, db_index=True, verbose_name='Название')
-    slug = models.SlugField(max_length=100, db_index=True, unique=True, verbose_name='url категории')
+    slug = models.SlugField(max_length=100, db_index=True, unique=True, verbose_name='URL категории')
     parent = TreeForeignKey('self', on_delete=models.PROTECT, null=True, blank=True, related_name='children',
                             db_index=True, verbose_name='Родительская категория')
     icon = models.FileField(upload_to='category/', blank=True, verbose_name='Иконка')
@@ -47,9 +47,9 @@ class Category(MPTTModel):
 
 class SiteSettings(SingletonModelSettings):
     cost_usual_delivery = models.DecimalField(
-        max_digits=10, decimal_places=2, verbose_name='обычная', help_text='Цена обычной доставки')
+        max_digits=10, decimal_places=2, verbose_name='Обычная', help_text='Цена обычной доставки')
     cost_express_delivery = models.DecimalField(
-        max_digits=10, decimal_places=2, verbose_name='экспресс', help_text='Цена экспресс доставки')
+        max_digits=10, decimal_places=2, verbose_name='Экспресс', help_text='Цена экспресс доставки')
     min_cost_for_free_delivery = models.DecimalField(
         max_digits=10, decimal_places=2, verbose_name='Минимум',
         help_text='Минимальная сумма для бесплатной доставки')

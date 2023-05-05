@@ -8,12 +8,12 @@ from app_products.models import Product
 
 class CommentProduct(models.Model):
     author = models.ForeignKey(
-        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, verbose_name='пользователь', related_name='comments')
-    product = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name='товар', related_name='comments')
-    content = models.TextField(verbose_name='отзыв', max_length=500)
-    pub_at = models.DateTimeField(auto_now_add=True, verbose_name='дата создания')
-    edit_at = models.DateTimeField(auto_now=True, verbose_name='дата редактирования')
-    hide_on = models.BooleanField(verbose_name='скрытый', default=False)
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, verbose_name='Пользователь', related_name='comments')
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name='Товар', related_name='comments')
+    content = models.TextField(verbose_name='Отзыв', max_length=500)
+    pub_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')
+    edit_at = models.DateTimeField(auto_now=True, verbose_name='Дата редактирования')
+    hide_on = models.BooleanField(verbose_name='Скрытый', default=False)
 
     def __str__(self):
         return f'Отзыв к {self.product}'
