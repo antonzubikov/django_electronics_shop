@@ -49,7 +49,7 @@ python manage.py loaddata fixtures/data_fixture.json
 
 ## Launch:
 
-* Для запуска сайта воспользуйтесь командной:
+* Для запуска сайта воспользуйтесь командой:
 
 ```
 python manage.py runserver
