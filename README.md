@@ -1,5 +1,6 @@
 # Online electronics store
 
+
 ## Project description:
 Это онлайн магазин электроники с использованием фреймворка Django.
 
@@ -12,7 +13,7 @@
 * Оставлять комментарии к товарам
 
 
-## Used technology:
+## Used technologies:
 
 * Python (3.10);
 * Django (4.1.3);
