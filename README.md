@@ -16,9 +16,9 @@
 ## Used technologies:
 
 * Python (3.10);
-* Django (4.1.3);
-* DRF (3.14.0);
-* SQLite3 (database);
+* Django (Python framework; 4.1.3);
+* DRF (Web API creation tool 3.14.0);
+* SQLite3 (relational database; 3.39.5);
 * requests (2.28.1);
 * PyYAML (6.0);
 * sorl–thumbnail (12.9.0);
