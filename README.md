@@ -1,5 +1,7 @@
 # Online electronics store
 
+<img width="750" alt="tg_1" src="https://github.com/antonzubikov/django_electronics_shop/assets/124088976/246b7707-7030-402c-b71b-4b38fa14db43">
+
 
 ## Project description:
 Это онлайн магазин электроники с использованием фреймворка Django.
