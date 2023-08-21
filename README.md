@@ -29,7 +29,7 @@
 ## Installation:
 
 * Необходимо скопировать всё содержимое репозитория в отдельный каталог;
-* Установить все связи из `requirements.txt`;
+* Установить все связи из `requirements.txt`:
 
 ```
 python pip install -r requirements.txt
