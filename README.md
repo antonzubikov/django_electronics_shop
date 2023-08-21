@@ -43,7 +43,7 @@ python manage.py migrate
 ```
 
 
-## Для тестирования и наглядного представления работы сайта необходимо загрузить фикстуры:
+## Fixtures:
 
 ```
 python manage.py loaddata fixtures/data_fixture.json
